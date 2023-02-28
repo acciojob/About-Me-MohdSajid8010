@@ -1,1 +1,55 @@
 
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	padding:20px 10px 20px 10px
+}
+ 
+ 
+.container{
+	width:100vw;
+	height:100vh;
+	display:grid;
+	grid-template-columns:1fr 1fr;
+column-gap:20px;
+	border:1px solid red;
+	
+}
+.profile img{
+	width:100%;
+	height:85%;
+	
+}
+.profile{
+	display:flex;
+	display-direction:row;
+	gap:20px
+}
+.profile-left{
+	border:1px solid green;
+	
+}
+#text-dark{
+	font-weight:bold;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+.about-section{
+	border:1px solid blue;
+	
+}
+.strip{
+	padding:2px;
+	width:60px;
+	background-color:blue;
+}
+.about-section p{
+	margin-top:20px;
+}
